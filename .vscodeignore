@@ -1,0 +1,26 @@
+# Copyright (c) 2016-present Sven Greb <development@svengreb.de>
+# This source code is licensed under the MIT license found in the license file.
+
+# Path match pattern to ignore when searching for files.
+# See https://code.visualstudio.com/api/working-with-extensions/publishing-extension#using-.vscodeignore for more details.
+
+.github/
+.husky/
+assets/
+!assets/extension-marketplace-icon.png
+!assets/extension-marketplace-icon-2x.png
+node_modules
+.editorconfig
+.eslintignore
+.eslintrc.js
+.gitattributes
+.gitignore
+.mailmap
+.npmrc
+.prettierignore
+.remarkignore
+.remarkrc.mjs
+lint-staged.config.js
+package-lock.json
+prettier.config.js
+*.vsix
